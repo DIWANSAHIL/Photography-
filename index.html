@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photography Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav style="background-color: black;">
+        <div class="logo">My Portfolio using AI</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+     <div class="bg">
+    <section id="home" class="section home-section">
+        <div class="home-content">
+            <h1>Welcome to My Photography Portfolio</h1>
+            <p>Capturing moments that last a lifetime. Explore my work and get in touch for collaborations and this website create using IA.</p>
+            <a href="#gallery" class="btn">View Gallery</a>
+        </div>
+    </section>
+     </div>
+
+    <!-- Gallery Page -->
+    <section id="gallery" class="section gallery-section">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="image/p1.webp" alt="Photo 1"></div>
+            <div class="gallery-item"><img src="image/p2.webp" alt="Photo 2"></div>
+            <div class="gallery-item"><img src="image/p3.webp" alt="Photo 3"></div>
+            <div class="gallery-item"><img src="image/p4.webp" alt="Photo 4"></div>
+            <div class="gallery-item"><img src="image/p5.webp" alt="Photo 5"></div>
+            <div class="gallery-item"><img src="image/p6.webp" alt="Photo 6"></div>
+            <div class="gallery-item"><img src="image/p7.webp" alt="Photo 7"></div>
+            <div class="gallery-item"><img src="image/p8.webp" alt="Photo 8"></div>
+            <div class="gallery-item"><img src="image/p9.webp" alt="Photo 9"></div>
+            <div class="gallery-item"><img src="image/p10.webp" alt="Photo 10"></div>
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about" class="section about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="image/profile.webp" alt="Profile Photo" class="profile-img">
+            <div class="bio">
+                <p>Hi, I'm SAHIL DIWAN, a passionate photographer specializing in landscape, portrait, etc. With over 10 years of experience, I strive to capture the beauty of the world through my lens.</p>
+                <h3>Skills</h3>
+                <ul>
+                    <li>Portrait Photography</li>
+                    <li>Landscape Photography</li>
+                    <li>Photo Editing</li>
+                    <li>Event Coverage</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="section contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="First Name" required>
+                <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="tel" id="contact" name="contact" placeholder="Contact Number" required>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 My Photography Portfolio. All rights reserved by SAHIL DIWAN.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
